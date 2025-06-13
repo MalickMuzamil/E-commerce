@@ -1,0 +1,54 @@
+.container-fluid {
+    position: relative;
+    text-decoration: none;
+}
+
+.image-section {
+    width: 100%;
+    height: auto;
+}
+
+.text-on-image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-on-image2:hover {
+    text-decoration: none !important;
+}
+
+.trending-text {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: rgb(224, 120, 51)
+}
+
+
+.button {
+    padding: 0.8rem 3rem;
+    color: black;
+    background: white;
+    border: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.paragraph{
+    width: 70%;
+}

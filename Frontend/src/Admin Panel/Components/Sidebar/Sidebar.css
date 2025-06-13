@@ -1,0 +1,59 @@
+.sb-topnav {
+    background-color: #212529;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.btn-search {
+    background-color: #8c7851;
+    color: #fffffe;
+}
+
+.sidebar-link {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+.sb-sidenav {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sidebar-link:hover {
+    color: white !important;
+    font-weight: 300;
+}
+
+.dropdown-navbar {
+    color: "white";
+}
+
+
+.sb-nav-link-icon {
+    color: white;
+    font-weight: 500;
+}
+
+.sb-sidenav-menu {
+    background-color: black;
+}
+
+.sb-sidenav-menu-heading {
+    color: white !important;
+}
+
+.navbar-icon {
+    color: white !important;
+}
+
+.drop-chat-logout {
+    top: 37px !important;
+    min-width: 10em !important;
+    padding: 0px 0px;
+    
+}
+

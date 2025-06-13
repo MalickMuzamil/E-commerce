@@ -1,0 +1,72 @@
+.logo-text {
+    display: inline-block;
+    transform: rotate(90deg);
+    transform-origin: center;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 2%;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+    .logo-text {
+        font-size: 18px;
+        top: 45%;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-text {
+        font-size: 16px;
+        top: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-text {
+        font-size: 14px;
+        top: 35%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-text {
+        font-size: 12px;
+        top: 30%;
+    }
+}
+
+.heading-tag{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.heading-text{
+    position: absolute;
+    left: 17%;
+    top: 4rem;
+}
+
+.button{
+    padding: 0.8rem 3rem;
+    color: black;
+    background: white;
+    border: 0px;
+    font-size: 12px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    letter-spacing:2px;
+    font-weight:bold;
+}

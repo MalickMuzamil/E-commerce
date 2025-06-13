@@ -1,0 +1,82 @@
+.heading-tag-swiper {
+    background-color: #f8f8f8;
+    color: black;
+    font-size: 3rem;
+}
+
+.product-img {
+    height: 400px;
+    width: auto;
+}
+
+.text-on-image:hover {
+    text-decoration: underline !important;
+}
+
+.image-text {
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+.hover-icon {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: linear-gradient(46deg, #e1e1e1, #d0d0d0);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.image-text:hover .hover-icon {
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, 50%);
+    color: red;
+    cursor: pointer;
+}
+
+.hover-icon2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(50%, 0%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: linear-gradient(46deg, #e1e1e1, #d0d0d0);
+    color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.image-text:hover .hover-icon2 {
+    top: 50%;
+    opacity: 1;
+    transform: translate(70%, 50%);
+}
+
+.hover-icon3 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(50%, 0%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.image-text:hover .hover-icon3 {
+    top: 50%;
+    opacity: 1;
+    transform: translate(-170%, 50%);
+    cursor: pointer;
+    background: linear-gradient(46deg, #e1e1e1, #d0d0d0);
+}

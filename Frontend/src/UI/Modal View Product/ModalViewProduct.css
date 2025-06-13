@@ -1,0 +1,44 @@
+.coloum2 {
+    display: inline-grid;
+    justify-content: center;
+}
+
+.titles {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.modal-content-product {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quantity-input {
+    width: 5rem;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.btn-secondary {
+    padding: 0.5rem 1rem;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.custom-modal-width {
+    max-width: 50%; 
+}
+
+.Toastify__toast-container {
+    z-index: 9999;
+  }

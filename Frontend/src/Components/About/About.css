@@ -1,0 +1,35 @@
+.container-about {
+    background-color: rgb(216 216 216);
+}
+
+.row-image-carousal {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.image-on-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2rem);
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image-on-div h3,
+.image-on-div p {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .image-on-div {
+        width: 100%;
+        position: static;
+    }
+}
