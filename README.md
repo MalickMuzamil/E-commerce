@@ -42,13 +42,17 @@
 
 ## 🔧 Setup Frontend
 1- cd Frontend
+
 2- npm install
+
 3- npm start
 
 ## ⚙️ Setup Backend
-cd Backend
-npm install
-npm run dev
+1- cd Backend
+
+2- npm install
+
+3- npm run dev
 
 
 ## Make sure to configure the .env file with your MongoDB URI, JWT secret, and payment keys.
@@ -75,15 +79,22 @@ E-commerce/
 ## 🔐 Environment Variables
 Create .env file in the Backend/ folder:
 1- PORT=5000
+
 2- MONGO_URI=your_mongodb_connection_string
+
 3- JWT_SECRET=your_jwt_secret
+
 4- STRIPE_SECRET_KEY=your_stripe_key
 
 ## 📚 Learnings & Highlights
 ✅ Real-world MERN architecture implementation
+
 ✅ Role-based route protection (admin, user)
+
 ✅ SaaS-style Admin Panel scalable for multi-tenant access
+
 ✅ REST API design and integration with frontend
+
 ✅ Fully functional cart, checkout, and order system.
 
 ---
