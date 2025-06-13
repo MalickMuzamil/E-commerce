@@ -37,6 +37,7 @@
 ### 📦 Clone the repository
 
 1- git clone https://github.com/MalickMuzamil/E-commerce.git
+
 2- cd E-commerce
 
 ## 🔧 Setup Frontend
