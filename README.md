@@ -36,13 +36,13 @@
 
 ### 📦 Clone the repository
 
-git clone https://github.com/MalickMuzamil/E-commerce.git
-cd E-commerce
+1- git clone https://github.com/MalickMuzamil/E-commerce.git
+2- cd E-commerce
 
 ## 🔧 Setup Frontend
-cd Frontend
-npm install
-npm start
+1- cd Frontend
+2- npm install
+3- npm start
 
 ## ⚙️ Setup Backend
 cd Backend
