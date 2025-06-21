@@ -101,9 +101,10 @@ Create .env file in the Backend/ folder:
 
 ## 🧑‍💻 Contact
 
-Have questions or suggestions? 📧 Email: malikmuzamil92110@gmail.com 
+Have questions or suggestions? 
 
-💼 https://www.linkedin.com/in/malik-muzamil/
+<!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
+
 
 “Design adds value faster than it adds cost.”
 
