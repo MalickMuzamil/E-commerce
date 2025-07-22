@@ -58,21 +58,37 @@
 ## Make sure to configure the .env file with your MongoDB URI, JWT secret, and payment keys.
 
 ## 📁 Project Structure
+
 E-commerce/
+
 ├── Frontend/                  # React frontend
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   ├── pages/
+
 │   │   └── redux/
+
 │   └── public/
+
 ├── Backend/                  # Node/Express backend
+
 │   ├── controllers/
+
 │   ├── models/
+
 │   ├── routes/
+
 │   └── middleware/
+
 ├── admin-panel/             # SaaS-based Admin UI
+
 │   ├── pages/
+
 │   └── components/
+
 └── README.md
 
 
